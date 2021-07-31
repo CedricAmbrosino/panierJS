@@ -1,0 +1,36 @@
+<!doctype html> 
+<html lang="en"> 
+<head> 
+    <title>Panier</title>
+	<meta charset="uft-8">
+	<link href="./JsPanier.css" rel="stylesheet">
+</head>
+<body>
+	<h1>Vos plantes d'intérieur</h1>
+	<div class="line"></div>
+	<div id="articles">
+		<div id="CadreObjet1" class="cadreProduit"> <img src="./zamioculas.jpg"/><p class="bouton">Acheter<p/></div>
+		<div id="CadreObjet2" class="cadreProduit"> <img src="./cactus.jpg"/> <p class="bouton">Acheter<p/></div>
+		<div id="CadreObjet3" class="cadreProduit"> <img src="./bonzai.jpg"/> <p class="bouton">Acheter<p/></div>
+	<div>
+	<div id="panierArticles" class="clearfloat">
+		<div id="CadrePanier"> 
+			<div id="panierGeneral">
+				<img src="./panier.svg"/> 
+				<p class="bouton boutonNetoyer">Nettoyer<p/>
+			</div>
+			<div id="panierSecondaire">
+				<table>
+					<tr><th>zamioculas</th><td id="nbPlant0">0</td><td><p id="retPlant0" class="bouton boutonRetirer">-<p/></td></tr>
+					<tr><th>cactus</th><td id="nbPlant1">0</td><td><p  id="retPlant1" class="bouton boutonRetirer">-<p/></tr>
+					<tr><th>bonzai</th><td id="nbPlant2">0</td><td><p id="retPlant2" class="bouton boutonRetirer">-<p/></tr>				
+				</table>										
+			</div>
+		</div>
+	</div>
+<script src="./JsPanier.js"></script>	
+
+
+
+</body>
+</html>
